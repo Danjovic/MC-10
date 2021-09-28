@@ -896,7 +896,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="EXPANSION" prefix="ST" uservalue="yes">
+<deviceset name="EXPANSION">
 <description>&lt;B&gt;MC-10 Expansion port connector&lt;/B&gt;</description>
 <gates>
 <gate name="D7" symbol="EDGE_PIN" x="-35.56" y="0" addlevel="always"/>
