@@ -235,14 +235,14 @@
 <text x="-6.731" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 <package name="EXPANSION_PORT">
-<description>&lt;B&gt;8-bit CARD IBM/PC-AT&lt;/B&gt;</description>
+<description>&lt;B&gt;MC-10 Expansion port&lt;/B&gt;</description>
 <wire x1="-22.733" y1="14.732" x2="-22.225" y2="15.24" width="0" layer="20"/>
-<wire x1="-22.225" y1="15.24" x2="22.225" y2="15.24" width="0" layer="20"/>
-<wire x1="22.225" y1="15.24" x2="22.733" y2="14.732" width="0" layer="20"/>
+<wire x1="-22.225" y1="15.24" x2="24.765" y2="15.24" width="0" layer="20"/>
+<wire x1="24.765" y1="15.24" x2="25.273" y2="14.732" width="0" layer="20"/>
 <wire x1="-22.733" y1="0" x2="-22.733" y2="14.732" width="0" layer="20"/>
-<wire x1="22.733" y1="0" x2="22.733" y2="14.732" width="0" layer="20"/>
-<wire x1="22.733" y1="0" x2="33.02" y2="0" width="0" layer="20"/>
-<wire x1="33.02" y1="0" x2="33.02" y2="15.24" width="0" layer="20"/>
+<wire x1="25.273" y1="0" x2="25.273" y2="14.732" width="0" layer="20"/>
+<wire x1="25.273" y1="0" x2="35.56" y2="0" width="0" layer="20"/>
+<wire x1="35.56" y1="0" x2="35.56" y2="15.24" width="0" layer="20"/>
 <smd name="30" x="15.24" y="7.62" dx="1.524" dy="14.097" layer="16" rot="R180" cream="no"/>
 <smd name="29" x="15.24" y="7.62" dx="1.524" dy="14.605" layer="1" rot="R180" cream="no"/>
 <text x="13.335" y="-3.175" size="1.778" layer="25">&gt;NAME</text>
