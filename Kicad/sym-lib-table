@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name MC-10_Schematics-eagle-import)(type Legacy)(uri ${KIPRJMOD}/MC-10_Schematics-eagle-import.lib)(options "")(descr ""))
+)
