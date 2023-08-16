@@ -321,7 +321,7 @@
 <text x="-18.161" y="-6.604" size="1.778" layer="25" rot="R90">&gt;NAME</text>
 <text x="-9.779" y="-0.889" size="1.778" layer="27">&gt;VALUE</text>
 </package>
-<package name="DIN04S">
+<package name="MC-10_DIN04S">
 <description>DIN Socket</description>
 <wire x1="-10.5" y1="-12.2" x2="10.5" y2="-12.2" width="0.2032" layer="21"/>
 <wire x1="10.5" y1="-12.2" x2="10.5" y2="-10.4" width="0.2032" layer="21"/>
@@ -330,14 +330,6 @@
 <wire x1="8" y1="6.8" x2="-8" y2="6.8" width="0.2032" layer="21"/>
 <wire x1="-8" y1="6.8" x2="-8.7" y2="6.1" width="0.2032" layer="21"/>
 <wire x1="-8.7" y1="6.1" x2="-8.7" y2="1" width="0.2032" layer="21"/>
-<pad name="3" x="7.5" y="0" drill="1.5" shape="octagon"/>
-<pad name="4" x="-7.5" y="0" drill="1.5" shape="octagon"/>
-<pad name="2" x="-5" y="2.3" drill="1.5" shape="octagon"/>
-<pad name="1" x="5" y="2.3" drill="1.5" shape="octagon"/>
-<pad name="M1" x="-5" y="-9.7" drill="1.5" shape="square"/>
-<text x="-3.08" y="7.7" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.08" y="-13.65" size="1.27" layer="27">&gt;VALUE</text>
-<pad name="M2" x="5" y="-9.7" drill="1.5" shape="square"/>
 <wire x1="-10.5" y1="-10.4" x2="-10.5" y2="-12.2" width="0.2032" layer="21"/>
 <wire x1="-10.5" y1="-10.4" x2="-8.7" y2="-10.4" width="0.2032" layer="21"/>
 <wire x1="-8.7" y1="-10.4" x2="-6.3" y2="-10.4" width="0.2032" layer="21"/>
@@ -350,8 +342,16 @@
 <wire x1="-1" y1="1" x2="-6.7" y2="1" width="0.2032" layer="21"/>
 <wire x1="-8.7" y1="-0.8" x2="-8.7" y2="-10.4" width="0.2032" layer="21"/>
 <wire x1="8.7" y1="-0.8" x2="8.7" y2="-10.4" width="0.2032" layer="21"/>
+<pad name="1" x="5" y="2.3" drill="1.5" shape="octagon"/>
+<pad name="2" x="-5" y="2.3" drill="1.5" shape="octagon"/>
+<pad name="3" x="7.5" y="0" drill="1.5" shape="octagon"/>
+<pad name="4" x="-7.5" y="0" drill="1.5" shape="octagon"/>
+<pad name="M1" x="-5" y="-9.7" drill="1.5" shape="square"/>
+<pad name="M2" x="5" y="-9.7" drill="1.5" shape="square"/>
+<text x="-3.08" y="7.7" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.08" y="-13.65" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="DIN05S">
+<package name="MC-10_DIN05S">
 <description>DIN Socket</description>
 <wire x1="-10.5" y1="-12.2" x2="10.5" y2="-12.2" width="0.2032" layer="21"/>
 <wire x1="10.5" y1="-12.2" x2="10.5" y2="-10.4" width="0.2032" layer="21"/>
@@ -360,27 +360,27 @@
 <wire x1="8" y1="6.8" x2="-8" y2="6.8" width="0.2032" layer="21"/>
 <wire x1="-8" y1="6.8" x2="-8.7" y2="6.1" width="0.2032" layer="21"/>
 <wire x1="-8.7" y1="6.1" x2="-8.7" y2="1" width="0.2032" layer="21"/>
+<wire x1="-10.5" y1="-10.4" x2="-10.5" y2="-12.2" width="0.2032" layer="21"/>
+<wire x1="-10.5" y1="-10.4" x2="-8.7" y2="-10.4" width="0.2032" layer="21"/>
+<wire x1="-8.7" y1="-10.4" x2="-6.3" y2="-10.4" width="0.2032" layer="21"/>
+<wire x1="-3.7" y1="-10.4" x2="3.7" y2="-10.4" width="0.2032" layer="21"/>
+<wire x1="6.3" y1="-10.4" x2="8.7" y2="-10.4" width="0.2032" layer="21"/>
+<wire x1="8.7" y1="-10.4" x2="10.5" y2="-10.4" width="0.2032" layer="21"/>
+<wire x1="1" y1="1" x2="6.7" y2="1" width="0.2032" layer="21"/>
+<wire x1="-8.7" y1="1" x2="-8.3" y2="1" width="0.2032" layer="21"/>
+<wire x1="8.3" y1="1" x2="8.7" y2="1" width="0.2032" layer="21"/>
+<wire x1="-1" y1="1" x2="-6.7" y2="1" width="0.2032" layer="21"/>
+<wire x1="-8.7" y1="-0.8" x2="-8.7" y2="-10.4" width="0.2032" layer="21"/>
+<wire x1="8.7" y1="-0.8" x2="8.7" y2="-10.4" width="0.2032" layer="21"/>
 <pad name="1" x="7.5" y="0" drill="1.5" shape="octagon"/>
 <pad name="2" x="0" y="0" drill="1.5" shape="octagon"/>
 <pad name="3" x="-7.5" y="0" drill="1.5" shape="octagon"/>
-<pad name="5" x="-5" y="2.3" drill="1.5" shape="octagon"/>
 <pad name="4" x="5" y="2.3" drill="1.5" shape="octagon"/>
+<pad name="5" x="-5" y="2.3" drill="1.5" shape="octagon"/>
 <pad name="M" x="-5" y="-9.7" drill="1.5" shape="square"/>
+<pad name="M1" x="5" y="-9.7" drill="1.5" shape="square"/>
 <text x="-3.08" y="7.7" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.08" y="-13.65" size="1.27" layer="27">&gt;VALUE</text>
-<pad name="M1" x="5" y="-9.7" drill="1.5" shape="square"/>
-<wire x1="-10.5" y1="-10.4" x2="-10.5" y2="-12.2" width="0.2032" layer="21"/>
-<wire x1="-10.5" y1="-10.4" x2="-8.7" y2="-10.4" width="0.2032" layer="21"/>
-<wire x1="-8.7" y1="-10.4" x2="-6.3" y2="-10.4" width="0.2032" layer="21"/>
-<wire x1="-3.7" y1="-10.4" x2="3.7" y2="-10.4" width="0.2032" layer="21"/>
-<wire x1="6.3" y1="-10.4" x2="8.7" y2="-10.4" width="0.2032" layer="21"/>
-<wire x1="8.7" y1="-10.4" x2="10.5" y2="-10.4" width="0.2032" layer="21"/>
-<wire x1="1" y1="1" x2="6.7" y2="1" width="0.2032" layer="21"/>
-<wire x1="-8.7" y1="1" x2="-8.3" y2="1" width="0.2032" layer="21"/>
-<wire x1="8.3" y1="1" x2="8.7" y2="1" width="0.2032" layer="21"/>
-<wire x1="-1" y1="1" x2="-6.7" y2="1" width="0.2032" layer="21"/>
-<wire x1="-8.7" y1="-0.8" x2="-8.7" y2="-10.4" width="0.2032" layer="21"/>
-<wire x1="8.7" y1="-0.8" x2="8.7" y2="-10.4" width="0.2032" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -415,7 +415,7 @@
 <pin name="CHROMA_INPUT" x="-22.86" y="-10.16" length="middle" direction="in"/>
 <pin name="RF_TANK2" x="22.86" y="2.54" length="middle" direction="hiz" rot="R180"/>
 <pin name="GND" x="22.86" y="-2.54" length="middle" direction="pwr" rot="R180"/>
-<pin name="DUTY_CYCL_ADJ" x="22.86" y="10.16" length="middle" direction="in" rot="R180"/>
+<pin name="DUTY_CYCL_ADJ" x="22.86" y="10.16" length="middle" direction="pas" rot="R180"/>
 <pin name="VCC" x="22.86" y="-5.08" length="middle" direction="pwr" rot="R180"/>
 <pin name="COLOR_REF_IN" x="-22.86" y="5.08" length="middle" direction="in"/>
 <pin name="RF_OUT" x="22.86" y="-10.16" length="middle" direction="out" rot="R180"/>
@@ -431,8 +431,8 @@
 <wire x1="15.24" y1="35.56" x2="-12.7" y2="35.56" width="0.4064" layer="94"/>
 <text x="-12.7" y="36.195" size="1.778" layer="95">&gt;NAME</text>
 <text x="-12.7" y="-38.1" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="XTAL1" x="-17.78" y="17.78" length="middle" direction="in"/>
-<pin name="EXTAL2" x="-17.78" y="22.86" length="middle" direction="out"/>
+<pin name="XTAL1" x="-17.78" y="17.78" length="middle"/>
+<pin name="EXTAL2" x="-17.78" y="22.86" length="middle" direction="in"/>
 <pin name="!IRQ1" x="-17.78" y="12.7" length="middle" direction="in" function="dot"/>
 <pin name="A15" x="20.32" y="25.4" length="middle" rot="R180"/>
 <pin name="A14" x="20.32" y="22.86" length="middle" rot="R180"/>
@@ -482,7 +482,7 @@
 <text x="-10.16" y="-38.1" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="CLK" x="15.24" y="15.24" length="middle" direction="in" function="clk" rot="R180"/>
 <pin name="Y" x="15.24" y="12.7" length="middle" direction="out" rot="R180"/>
-<pin name="!MS" x="15.24" y="27.94" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="!MS" x="15.24" y="27.94" length="middle" direction="in" function="dot" rot="R180"/>
 <pin name="!INT!/EXT" x="15.24" y="-33.02" length="middle" direction="in" rot="R180"/>
 <pin name="GM2" x="15.24" y="-30.48" length="middle" direction="in" rot="R180"/>
 <pin name="GM1" x="15.24" y="-27.94" length="middle" direction="in" rot="R180"/>
@@ -629,13 +629,12 @@
 <pin name="VCC" x="0" y="7.62" visible="pad" length="middle" direction="pwr" rot="R270"/>
 <pin name="GND" x="0" y="-7.62" visible="pad" length="middle" direction="pwr" rot="R90"/>
 </symbol>
-<symbol name="DIN04">
-<text x="-3.81" y="10.16" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-11.43" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-12.7" y="5.08" visible="pad" length="short" direction="pas"/>
-<pin name="2" x="-12.7" y="2.54" visible="pad" length="short" direction="pas"/>
-<pin name="3" x="-12.7" y="-2.54" visible="pad" length="short" direction="pas"/>
-<pin name="4" x="-12.7" y="-5.08" visible="pad" length="short" direction="pas"/>
+<symbol name="MC-10_DIN04">
+<circle x="1.016" y="4.826" radius="1.016" width="0.3048" layer="94"/>
+<circle x="-3.81" y="3.302" radius="1.016" width="0.3048" layer="94"/>
+<circle x="1.016" y="-4.826" radius="1.016" width="0.3048" layer="94"/>
+<circle x="-3.81" y="-3.302" radius="1.016" width="0.3048" layer="94"/>
+<circle x="0" y="0" radius="7.62" width="0.127" layer="94"/>
 <wire x1="5.08" y1="-1.778" x2="5.08" y2="1.778" width="0.127" layer="94"/>
 <wire x1="-10.16" y1="2.54" x2="-7.112" y2="2.54" width="0.1524" layer="94"/>
 <wire x1="-10.16" y1="-2.54" x2="-7.112" y2="-2.54" width="0.1524" layer="94"/>
@@ -643,17 +642,24 @@
 <wire x1="-6.604" y1="5.08" x2="-6.096" y2="4.572" width="0.1524" layer="94"/>
 <wire x1="-10.16" y1="-5.08" x2="-6.604" y2="-5.08" width="0.1524" layer="94"/>
 <wire x1="-6.604" y1="-5.08" x2="-6.096" y2="-4.572" width="0.1524" layer="94"/>
-<circle x="1.016" y="4.826" radius="1.016" width="0.3048" layer="94"/>
-<circle x="-3.81" y="3.302" radius="1.016" width="0.3048" layer="94"/>
-<circle x="1.016" y="-4.826" radius="1.016" width="0.3048" layer="94"/>
-<circle x="-3.81" y="-3.302" radius="1.016" width="0.3048" layer="94"/>
-<circle x="0" y="0" radius="7.62" width="0.127" layer="94"/>
 <wire x1="5.08" y1="1.778" x2="6.604" y2="1.778" width="0.127" layer="94"/>
 <wire x1="5.08" y1="-1.778" x2="6.604" y2="-1.778" width="0.127" layer="94"/>
 <wire x1="6.604" y1="-1.778" x2="6.604" y2="1.778" width="0.127" layer="94" curve="-329.863024"/>
+<pin name="1" x="-12.7" y="5.08" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="-12.7" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-12.7" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-12.7" y="-5.08" visible="pad" length="short" direction="pas"/>
+<text x="-3.81" y="10.16" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-11.43" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="DIN05">
+<symbol name="MC-10_DIN05">
 <description>DIN Socket 5 pin 180 degree</description>
+<circle x="0" y="5.08" radius="1.016" width="0.3048" layer="94"/>
+<circle x="-3.556" y="3.556" radius="1.016" width="0.3048" layer="94"/>
+<circle x="0" y="-5.08" radius="1.016" width="0.3048" layer="94"/>
+<circle x="-3.556" y="-3.556" radius="1.016" width="0.3048" layer="94"/>
+<circle x="-5.08" y="0" radius="1.016" width="0.3048" layer="94"/>
+<circle x="0" y="0" radius="7.62" width="0.127" layer="94"/>
 <wire x1="5.08" y1="-1.778" x2="5.08" y2="1.778" width="0.127" layer="94"/>
 <wire x1="-10.16" y1="0" x2="-7.62" y2="0" width="0.1524" layer="94"/>
 <wire x1="-10.16" y1="2.54" x2="-7.112" y2="2.54" width="0.1524" layer="94"/>
@@ -662,22 +668,16 @@
 <wire x1="-6.604" y1="5.08" x2="-6.096" y2="4.572" width="0.1524" layer="94"/>
 <wire x1="-10.16" y1="-5.08" x2="-6.604" y2="-5.08" width="0.1524" layer="94"/>
 <wire x1="-6.604" y1="-5.08" x2="-6.096" y2="-4.572" width="0.1524" layer="94"/>
-<circle x="0" y="5.08" radius="1.016" width="0.3048" layer="94"/>
-<circle x="-3.556" y="3.556" radius="1.016" width="0.3048" layer="94"/>
-<circle x="0" y="-5.08" radius="1.016" width="0.3048" layer="94"/>
-<circle x="-3.556" y="-3.556" radius="1.016" width="0.3048" layer="94"/>
-<circle x="-5.08" y="0" radius="1.016" width="0.3048" layer="94"/>
-<text x="-2.54" y="8.89" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="5.08" y1="1.778" x2="6.604" y2="1.778" width="0.127" layer="94"/>
+<wire x1="5.08" y1="-1.778" x2="6.604" y2="-1.778" width="0.127" layer="94"/>
+<wire x1="6.604" y1="-1.778" x2="6.604" y2="1.778" width="0.127" layer="94" curve="-329.863024"/>
 <pin name="1" x="-12.7" y="5.08" visible="pad" length="short" direction="pas"/>
 <pin name="2" x="-12.7" y="2.54" visible="pad" length="short" direction="pas"/>
 <pin name="3" x="-12.7" y="0" visible="pad" length="short" direction="pas"/>
 <pin name="4" x="-12.7" y="-2.54" visible="pad" length="short" direction="pas"/>
 <pin name="5" x="-12.7" y="-5.08" visible="pad" length="short" direction="pas"/>
-<circle x="0" y="0" radius="7.62" width="0.127" layer="94"/>
-<wire x1="5.08" y1="1.778" x2="6.604" y2="1.778" width="0.127" layer="94"/>
-<wire x1="5.08" y1="-1.778" x2="6.604" y2="-1.778" width="0.127" layer="94"/>
-<wire x1="6.604" y1="-1.778" x2="6.604" y2="1.778" width="0.127" layer="94" curve="-329.863024"/>
+<text x="-2.54" y="8.89" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -812,14 +812,14 @@
 <connect gate="G$1" pin="A15" pad="22"/>
 <connect gate="G$1" pin="A8" pad="29"/>
 <connect gate="G$1" pin="A9" pad="28"/>
-<connect gate="G$1" pin="AS" pad="31"/>
-<connect gate="G$1" pin="D0/A0" pad="39"/>
-<connect gate="G$1" pin="D1/A1" pad="37"/>
-<connect gate="G$1" pin="D2/A2" pad="36"/>
-<connect gate="G$1" pin="D3/A3" pad="35"/>
-<connect gate="G$1" pin="D4/A4" pad="34"/>
-<connect gate="G$1" pin="D5/A5" pad="33"/>
-<connect gate="G$1" pin="D6/A6" pad="32"/>
+<connect gate="G$1" pin="AS" pad="39"/>
+<connect gate="G$1" pin="D0/A0" pad="37"/>
+<connect gate="G$1" pin="D1/A1" pad="36"/>
+<connect gate="G$1" pin="D2/A2" pad="35"/>
+<connect gate="G$1" pin="D3/A3" pad="34"/>
+<connect gate="G$1" pin="D4/A4" pad="33"/>
+<connect gate="G$1" pin="D5/A5" pad="32"/>
+<connect gate="G$1" pin="D6/A6" pad="31"/>
 <connect gate="G$1" pin="D7/A7" pad="30"/>
 <connect gate="G$1" pin="E" pad="40"/>
 <connect gate="G$1" pin="EXTAL2" pad="3"/>
@@ -1024,10 +1024,10 @@
 <deviceset name="DS-4-04" prefix="K" uservalue="yes">
 <description>&lt;b&gt;DIN Socket 4 pin 210 degree &lt;/b&gt;</description>
 <gates>
-<gate name="G$1" symbol="DIN04" x="0" y="0"/>
+<gate name="G$1" symbol="MC-10_DIN04" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="DIN04S">
+<device name="" package="MC-10_DIN04S">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1043,10 +1043,10 @@
 <deviceset name="DS-4-05" prefix="K" uservalue="yes">
 <description>&lt;b&gt;DIN Socket 5 pin 180 degree&lt;/b&gt;</description>
 <gates>
-<gate name="G$1" symbol="DIN05" x="0" y="0"/>
+<gate name="G$1" symbol="MC-10_DIN05" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="DIN05S">
+<device name="" package="MC-10_DIN05S">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -24169,6 +24169,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="TP1" library="testpad" deviceset="TP" device="PAD1-13"/>
 <part name="TP2" library="testpad" deviceset="TP" device="PAD1-13"/>
 <part name="GND" library="testpad" deviceset="TP" device="PAD1-13"/>
+<part name="GND60" library="supply1" deviceset="GND" device=""/>
+<part name="P+9" library="supply1" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -24412,7 +24414,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <text x="88.9" y="264.16" size="1.778" layer="97">SERIAL I/O</text>
 <text x="-25.4" y="261.62" size="1.778" layer="97">CASSETE</text>
 <text x="144.78" y="-30.48" size="3.81" layer="94" font="vector" ratio="12">Redrawn by: Danjovic 2021</text>
-<text x="233.68" y="-50.8" size="2.54" layer="94" font="vector" ratio="12">C</text>
+<text x="233.68" y="-50.8" size="2.54" layer="94" font="vector" ratio="12">D</text>
 <text x="218.44" y="269.24" size="1.778" layer="97">8 Vac</text>
 <text x="-55.88" y="-20.32" size="1.778" layer="97">Rev A: /OE from SRAMs connected to GND, Selection signal names according to MC-10 service manual, Corrected opamp rails to +/-10V, deleted unused gates</text>
 <text x="20.32" y="182.88" size="1.778" layer="97">(CPU Clock)</text>
@@ -24429,6 +24431,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <text x="73.66" y="61.976" size="1.27" layer="97">(7)</text>
 <text x="226.06" y="158.242" size="1.27" layer="97">(8)</text>
 <text x="210.82" y="158.242" size="1.27" layer="97">(9)</text>
+<text x="-55.88" y="-35.56" size="1.778" layer="97">Rev D: Corrected 6803 SC1/SC2 pinout (thanks Brendan), added missing GND connection to both ROM /CS pins, added missing VCC power connection on ROM </text>
 </plain>
 <instances>
 <instance part="E." gate="D7" x="-198.12" y="-10.16"/>
@@ -25154,6 +25157,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="TP1" gate="G$1" x="81.28" y="347.98"/>
 <instance part="TP2" gate="G$1" x="60.96" y="142.24"/>
 <instance part="GND" gate="G$1" x="81.28" y="320.04" rot="R180"/>
+<instance part="GND60" gate="1" x="-66.04" y="40.64"/>
+<instance part="P+9" gate="1" x="-66.04" y="83.82" smashed="yes">
+<attribute name="VALUE" x="-68.58" y="83.82" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 <bus name="D[0..7]">
@@ -26767,6 +26774,16 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="TP1" gate="G$1" pin="TP"/>
 <wire x1="81.28" y1="345.44" x2="81.28" y2="342.9" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U3" gate="A" pin=".VCC"/>
+<pinref part="P+9" gate="1" pin="+5V"/>
+<wire x1="-68.58" y1="76.2" x2="-66.04" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-66.04" y1="76.2" x2="-66.04" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="U3" gate="A" pin="VPP"/>
+<wire x1="-66.04" y1="78.74" x2="-66.04" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="78.74" x2="-66.04" y2="78.74" width="0.1524" layer="91"/>
+<junction x="-66.04" y="78.74"/>
+</segment>
 </net>
 <net name="RST_SW" class="0">
 <segment>
@@ -27206,6 +27223,16 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="U10" gate="G$1" pin="!OE"/>
 <pinref part="GND58" gate="1" pin="GND"/>
 <wire x1="-48.26" y1="175.26" x2="-48.26" y2="172.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U3" gate="A" pin="!CS2"/>
+<pinref part="GND60" gate="1" pin="GND"/>
+<wire x1="-68.58" y1="48.26" x2="-66.04" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="-66.04" y1="48.26" x2="-66.04" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="U3" gate="A" pin="!CS1"/>
+<wire x1="-66.04" y1="45.72" x2="-66.04" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="45.72" x2="-66.04" y2="45.72" width="0.1524" layer="91"/>
+<junction x="-66.04" y="45.72"/>
 </segment>
 </net>
 <net name="!RESET" class="0">
